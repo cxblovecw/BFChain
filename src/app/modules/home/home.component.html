@@ -8,19 +8,23 @@
     <img src="../assets/images/bg.png" alt="">
 </div>
 
-<!--  -->
+<!-- 下载按钮 -->
 <div class="down-box">
     <div class="container">
         <div class="row">
             <div class="col-lg-6 down-item" *ngFor="let item of btn">
+                <!-- 下载地址由src决定 按钮内容text决定 -->
                 <a [href]="item.src">{{item.text}}</a>
             </div>
         </div>
     </div>
 </div>
+<!-- 介绍部分 -->
 <div class="introduction container">
+    <!-- 介绍部分大标题 -->
     <h3 class="title">{{introduction_list.head}}</h3>
     <div class="row content">
+        <!--introduction_list.body:介绍的列表  title:小标题 src:图片地址 content:详情 -->
         <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" *ngFor="let item of introduction_list.body">
             <app-introduction-item [title]='item.title' [src]='item.src' [content]='item.content'>
             </app-introduction-item>
@@ -28,38 +32,46 @@
 
     </div>
 </div>
+<!-- 视频部分 -->
 <div class="video-part container">
+    <!-- 视频部分大标题 -->
     <h3>{{video_title}}</h3>
+    <!-- 视频地址 -->
     <video src="../../../assets/video/blockchain.mp4" controls></video>
 </div>
-
+<!-- 优势部分 -->
 <div class="advantage container">
+    <!-- 优势部分大标题 -->
     <h3 class="advantage-title">{{advantage_list.head}}</h3>
+    <!-- 循环遍历优势列表 包括 src:图片地址 title:优势名 content:具体描述 -->
     <div class="row">
         <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" *ngFor="let item of advantage_list.body">
             <app-advantage-item [src]="item.src" [title]="item.title" [content]="item.content"></app-advantage-item>
         </div>
     </div>
 </div>
-
-
+<!-- 联系我们 -->
 <div class="contact">
     <div class="container">
+        <!-- 联系我们的大标题 -->
         <h2 class="contact-title">{{contact_list.head}}</h2>
         <div class="row contact-content">
             <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 contact-item"
                 *ngFor="let item of contact_list.body;let key=index;">
+                <!-- 鼠标移入显示二维码 移除隐藏二维码  -->
                 <span class="gzh" (mouseenter)="showImg(key)" (mouseleave)=hideImg(key)>
                     <img class="gzh-img" [src]='item.src'>
                     <img class="gzh-img2" [src]="item.src2">
+                    <!-- 图标下的title -->
                     <p class="gzh-title">{{item.title}}</p>
                 </span>
+                <!-- 二维码图片 -->
                 <img class="code-img" [src]='item.code' alt="">
             </div>
         </div>
     </div>
 </div>
-
+<!-- 返回顶部 -->
 <div class="go-top">
     <a class="go-top-button" href="javascript;">{{gotop}}</a>
 </div>

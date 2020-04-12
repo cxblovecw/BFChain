@@ -27,6 +27,7 @@ export class JoinComponent implements OnInit {
     
   }
   ngAfterContentInit(): void {
+    // 联系我们照片长廊部分  点击或者滑动  长廊移动效果代码
     let $this=this;
     $this.photo_box=document.getElementsByClassName('photo-box1')[0];
     $this.photo_wall=document.getElementsByClassName('photo-box2')[0];
@@ -82,6 +83,7 @@ export class JoinComponent implements OnInit {
       })
     }
     if(this.storage.getStorage()['language']==="English"){
+      // 中英文文字设置
       this.email=data.english.email;
       this.join_us=data.english.join_us;
       this.job_list=data.english.job_list;
@@ -98,6 +100,7 @@ export class JoinComponent implements OnInit {
   ngOnInit() {
 
   }
+  // 检查当前设备的类型 
   check() { 
     var userAgentInfo=navigator.userAgent; 
     var Agents =new Array("Android","iPhone","SymbianOS","Windows Phone","iPad","iPod"); 
@@ -110,15 +113,18 @@ export class JoinComponent implements OnInit {
      } 
      return flag; 
     }
+    // 图片点击 蒙板出现 大图查看图片
   imgClick(index){
     this.show_img=this.img_list[index];
     let mask=document.getElementsByClassName('mask')[0];
     mask['style'].display='block';
   }
+  // 关闭蒙板
   close(){
     let mask=document.getElementsByClassName('mask')[0];
     mask['style'].display='none';
   }
+  // 职位详情
   showDetail(index){
     this.job=this.job_list[index];
   }

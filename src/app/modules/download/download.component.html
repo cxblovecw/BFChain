@@ -1,20 +1,27 @@
+<!-- 下载的头部文字部分 -->
 <div class="download-header">
+  <!-- 开场白 -->
     <div class="title">{{head_title[0]}}</div>
     <p>{{head_title[1]}}</p>
     <p>{{head_title[2]}}</p>
 </div>
+<!-- 下载的内容部分 -->
 <div class="download-content">
+  <!-- 下载部分的大标题 -->
   <p class="content-title">{{content_title[0].title1}}</p>
   <div class="container content-body">
     <div class="content-body-title">
       <p><img src="../../../assets/images/phone.png"></p>
+      <!-- 小标题 -->
       <p> {{content_title[0].title2}}</p>
     </div>
     <div class="row">
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 bfchain-img">
+        <!-- 左部图片 -->
         <img src="../../../assets/images/bfchain.png" alt="">
       </div>
       <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 bfchain-introduction">
+        <!-- 右部简介 -->
         <ul>
           <li *ngFor="let item of introduction">
             {{item}}
@@ -22,8 +29,11 @@
         </ul>
         <div class="code_part">
             <div *ngFor="let item of code_list;let index=index;">
+            <!-- 手机类型  -->
             <p>{{ btn[index].head }}</p>
+            <!-- 扫码下载 -->
             <p><img [src]="item.src"></p>
+            <!-- 点击下载 -->
             <p><a href="#" class="download-btn"><img [src]="item.image" alt="">{{btn[index].btn}}</a></p>
           </div>
         </div>

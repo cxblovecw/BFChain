@@ -18,11 +18,10 @@ export class HomeComponent implements OnInit {
   public btn:string[];
   public video_title:string;
   constructor(public storage:StorageService) {
-    var u = navigator.userAgent;
-    var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
-var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
+
   }
   ngAfterContentInit(): void {
+    // 中英文文字设置
      if(this.storage.getStorage()['language']==='English'){
       this.slogen=data.english.slogen;
       this.btn=data.english.btn;
@@ -43,6 +42,7 @@ var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
      }
   }
   ngOnInit() {
+    //  首页背景图片 星星闪烁效果代码部分
     function getScreen() {
       let width;
       let height;
@@ -59,7 +59,7 @@ var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
           height=document.documentElement.clientHeight;
       }
       return {width,height};
-  }
+    }
   let {width,height}=getScreen();
   for (let i=0;i<100;i++){
       let oSpan=document.createElement("span");
@@ -91,9 +91,11 @@ var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
       this.bg.nativeElement.appendChild(oSpan);
    }
   }
+  // 联系我们部分的二维码显示函数
   showImg(index){
     this.code_list[index]['style'].display='inline-block';
   }
+  // 联系我们部分的二维码隐藏函数
   hideImg(index){
     this.code_list[index]['style'].display='none';
   }

@@ -14,6 +14,10 @@ export class DownloadComponent implements OnInit {
   public btn:object[];
   public android:object={};
   constructor(public storage:StorageService) { 
+    // 判断
+    // 1.安卓 则只显示安卓的下载详情
+    // 2.IOS  则只显示苹果的下载详情
+    // 3.电脑 同时显示安卓和苹果的下载详情
     var u = navigator.userAgent;
     var isAndroid = u.indexOf('Android') > -1 || u.indexOf('Adr') > -1; //android终端
     var isiOS = !!u.match(/\(i[^;]+;( U;)? CPU.+Mac OS X/); //ios终端
@@ -28,6 +32,7 @@ export class DownloadComponent implements OnInit {
     }
   }
   ngAfterContentInit(): void {
+    // 根据中英文显示不同的文字内容的设置
     if(this.storage.getStorage()['language']==='English'){
       this.head_title=data.english.head_title;
       this.content_title=data.english.content_title;
