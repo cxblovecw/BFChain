@@ -1,0 +1,36 @@
+
+  <nav class="navbar navbar-expand-lg navbar-light bg-light my-bar " #topbar>
+    <a class="navbar-brand" href="/home">
+      <img src="../../../assets/images/logo.png" alt="">
+      <span class="bfchain">BFChain</span>
+    </a>
+    <button class="navbar-toggler navbar-menu" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+  
+    <div class="collapse navbar-collapse navbar-menu-content my-bar-div" id="navbarSupportedContent">
+      <ul class="navbar-nav ml-auto my-bar-ul">
+        <!-- <li class="nav-item selected" [ngClass]="{'active': pathname==='/home'}">
+          <a class="nav-link" href="/home">首页<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item selected"  [ngClass]="{'active': pathname==='/download'}">
+          <a class="nav-link" href="/download">下载</a>
+        </li>
+        <li class="nav-item selected" [ngClass]="{'active': pathname==='/join'}">
+          <a class="nav-link" href="/join" tabindex="-1" aria-disabled="true">加入我们</a>
+        </li> -->
+        <li class="nav-item selected" *ngFor="let item of opt" [ngClass]="{'active': pathname===item.path}">
+          <a class="nav-link" [href]="item.path">{{item.title}}<span class="sr-only">(current)</span></a>
+        </li>
+        <li class="nav-item dropdown">
+          <a class="nav-link dropdown-toggle selected" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            {{language}}
+          </a>
+          <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+            <a class="dropdown-item chinese">中文</a>
+            <a class="dropdown-item english">English</a>
+          </div>
+        </li>
+      </ul>
+    </div>
+  </nav>

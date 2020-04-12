@@ -1,0 +1,132 @@
+{
+  "english":{
+    "btn":[
+      {
+        "text":"Download BFChain White-book",
+        "src":"../../../assets/whiteBook/BFChain3.0WhiteBook1.pdf"
+      },
+      {
+        "text":"Download BFChain White-book",
+        "src":"../../../assets/whiteBook/BFChain3.0WhiteBook1.pdf"
+      }
+    ],
+    "slogen":"Opening the Credit Age",
+    "video_title":"Access to blockchain science",
+    "introduction_list":{
+      "head":"BFChain：Block Chain3.0",
+      "body":[
+        {
+          "title":"Block Chain",
+          "src":"../../../assets/images/blockchain.png",
+          "content":"Block chain is a distributed shared account book and database, which has the characteristics of decentralization, non-tampering, full mark, traceability, collective maintenance, openness and transparency. "
+        },
+        {
+          "title":"The world's first mobile public block chain",
+          "src":"../../../assets/images/computer_phone.png",
+          "content":"Instinct housekeeper's instinctive blockchain lab has developed the world's first mobile-side public chain bfchain, porting it to the mobile side for the first time, allowing everyone to maintain a direct connection and participate in the governance of the blockchain without using any third-party servers, websites, devices, etc. "
+        },
+        {
+          "title":"new consensus mechanism",
+          "src":"../../../assets/images/gs.png",
+          "content":"We redesigned the consensus mechanism based on participation dpop( entrustment participation rights and interests proof mechanism), which can effectively avoid the problem of low cost of doing evil without equity node and high right collective, in addition to effectively inheriting the business attribute of pos, the high efficiency attribute of dpos, and the full participation attribute of pbft. "
+        }
+      ]
+    },
+    "advantage_list":{
+      "head":"BFChain's advantages",
+      "body":[
+    {"title":"safe","src":"../../../../../assets/images/safe.png","content":"Secure your property and privacy"},
+    {"title":"safe","src":"../../../../../assets/images/safe.png","content":"Secure your property and privacy"},
+    {"title":"safe","src":"../../../../../assets/images/safe.png","content":"Secure your property and privacy"},
+    {"title":"safe","src":"../../../../../assets/images/safe.png","content":"Secure your property and privacy"},
+    {"title":"safe","src":"../../../../../assets/images/safe.png","content":"Secure your property and privacy"},
+    {"title":"safe","src":"../../../../../assets/images/safe.png","content":"Secure your property and privacy"},
+    {"title":"safe","src":"../../../../../assets/images/safe.png","content":"Secure your property and privacy"},
+    {"title":"safe","src":"../../../../../assets/images/safe.png","content":"Secure your property and privacy"}
+      ]},
+    "contact_list":{"head":"Contact us","body":[
+        {"src":"../../../assets/images/gzh.png",
+        "src2":"../../../assets/images/gzh2.png",
+        "title":"bagentech","code":"../../../assets/images/bg_code.jpg"},
+        {"src":"../../../assets/images/gzh.png","title":"bagentech","code":"../../../assets/images/bg_code.jpg","src2":"../../../assets/images/gzh2.png"},
+        {"src":"../../../assets/images/gzh.png",
+        "src2":"../../../assets/images/gzh2.png","title":"bagentech","code":"../../../assets/images/bg_code.jpg"},
+        {"src":"../../../assets/images/gzh.png",
+        "src2":"../../../assets/images/gzh2.png","title":"bagentech","code":"../../../assets/images/bg_code.jpg"},
+        {"src":"../../../assets/images/gzh.png",
+        "src2":"../../../assets/images/gzh2.png","title":"bagentech","code":"../../../assets/images/bg_code.jpg"},
+        {"src":"../../../assets/images/gzh.png",
+        "src2":"../../../assets/images/gzh2.png","title":"bagentech","code":"../../../assets/images/bg_code.jpg"},
+        {"src":"../../../assets/images/gzh.png",
+        "src2":"../../../assets/images/gzh2.png","title":"bagentech","code":"../../../assets/images/bg_code.jpg"},
+        {"src":"../../../assets/images/gzh.png",
+        "src2":"../../../assets/images/gzh2.png","title":"bagentech","code":"../../../assets/images/bg_code.jpg"}
+    ]},
+    "gotop":"Back to Top"
+  },
+  "chinese":{
+    "btn":[
+      {
+        "text":"下载BFChain白皮书",
+        "src":"../../../assets/whiteBook/BFChain3.0WhiteBook1.pdf"
+      },
+      {
+        "text":"下载BFChain白皮书",
+        "src":"../../../assets/whiteBook/BFChain3.0WhiteBook1.pdf"
+      }
+    ],
+    "slogen":"开启信用时代",
+    "video_title":"区块链科普",
+    "introduction_list":{
+      "head":"BFChain ： 区块链3.0",
+      "body":[
+        {
+          "title":"区块链",
+          "src":"../../../assets/images/blockchain.png",
+          "content":"区块链是一个分布式的共享账本和数据库，具有去中心化、不可篡改、全程留痕、可以追溯、集体维护、公开透明等特点。"
+        },
+        {
+          "title":"全球首款移动端公有链",
+          "src":"../../../assets/images/computer_phone.png",
+          "content":"本能管家的本能区块链实验室开发了全球首款移动端公有链BFChain，首次将区块链移植到了移动端，让每个人不用借助任何第三方服务器、网站、设备等即可以保持直接连接并参与治理区块链。"
+        },
+        {
+          "title":"全新的共识机制",
+          "src":"../../../assets/images/gs.png",
+          "content":"我们重新设计了基于参与度的DPOP(委托参与度权益证明机制)共识机制，它除了有效继承了POS的业务属性、DPOS的高效属性、PBFT的全员参与属性外，还能有效避免无权益节点和高权益集体作恶成本低的问题。"
+        }
+      ]
+    },
+    "advantage_list":{
+      "head":"BFChain的优势",
+      "body":[
+    {"title":"安全","src":"../../../../../assets/images/safe.png","content":"保证您的财产和隐私安全"},
+    {"title":"安全","src":"../../../../../assets/images/safe.png","content":"保证您的财产和隐私安全"},
+    {"title":"安全","src":"../../../../../assets/images/safe.png","content":"保证您的财产和隐私安全"},
+    {"title":"安全","src":"../../../../../assets/images/safe.png","content":"保证您的财产和隐私安全"},
+    {"title":"安全","src":"../../../../../assets/images/safe.png","content":"保证您的财产和隐私安全"},
+    {"title":"安全","src":"../../../../../assets/images/safe.png","content":"保证您的财产和隐私安全"},
+    {"title":"安全","src":"../../../../../assets/images/safe.png","content":"保证您的财产和隐私安全"},
+    {"title":"安全","src":"../../../../../assets/images/safe.png","content":"保证您的财产和隐私安全"}
+    ]},
+    "contact_list":{"head":"关注我们","body":[
+        {"src":"../../../assets/images/gzh.png",
+        "src2":"../../../assets/images/gzh2.png",
+        "title":"链上巴根","code":"../../../assets/images/bg_code.jpg"},
+        {"src":"../../../assets/images/gzh.png","title":"链上巴根","code":"../../../assets/images/bg_code.jpg","src2":"../../../assets/images/gzh2.png"},
+        {"src":"../../../assets/images/gzh.png",
+        "src2":"../../../assets/images/gzh2.png","title":"链上巴根","code":"../../../assets/images/bg_code.jpg"},
+        {"src":"../../../assets/images/gzh.png",
+        "src2":"../../../assets/images/gzh2.png","title":"链上巴根","code":"../../../assets/images/bg_code.jpg"},
+        {"src":"../../../assets/images/gzh.png",
+        "src2":"../../../assets/images/gzh2.png","title":"链上巴根","code":"../../../assets/images/bg_code.jpg"},
+        {"src":"../../../assets/images/gzh.png",
+        "src2":"../../../assets/images/gzh2.png","title":"链上巴根","code":"../../../assets/images/bg_code.jpg"},
+        {"src":"../../../assets/images/gzh.png",
+        "src2":"../../../assets/images/gzh2.png","title":"链上巴根","code":"../../../assets/images/bg_code.jpg"},
+        {"src":"../../../assets/images/gzh.png",
+        "src2":"../../../assets/images/gzh2.png","title":"链上巴根","code":"../../../assets/images/bg_code.jpg"}
+    ]},
+    "gotop":"返回顶部"
+  }
+}

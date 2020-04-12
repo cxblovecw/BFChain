@@ -1,0 +1,69 @@
+<div class="mask">
+    <div class="mask-box">
+        <img [src]="show_img" class="show-img">
+        <span id='close' (click)=close()><img src="../../../assets/images/close.png"></span>
+    </div>
+</div>
+
+<div class="photo-box1">
+    <div class="welcome">{{welcome}}</div>
+    <div class="photo-box2">
+        <div class="photo-wall">
+            <img *ngFor="let item of img_list;let index=index;" [src]="item" (click)="imgClick(index);$event.stopPropagation();" (touch)="$event.stopPropagation();">
+        </div>       
+    </div>
+</div>
+
+ <div class="phone-part">
+    <div class="header">
+        <img src="../../../assets/images/bl.jpg" alt="">
+    </div>
+    <div class="intruduction" *ngFor="let item of phone_introduction">
+        <h4 ><img src="../../../assets/images/star2.png">{{item.title}}</h4>
+        <p>{{item.detail}}</p>
+        <img src="{{item.src}}" alt="">
+    </div>
+</div>
+
+<div class="job ">
+    <div class="job-content container">
+        <h2>{{join_us}}</h2>
+        <div class="row">
+            <div class="job-type col-lg-3 col-md-4 col-sm-4 col-6" *ngFor="let item of job_list;let index=index;"> 
+                <button data-toggle="modal" data-target="#exampleModal" (click)="showDetail(index)">
+                    <img src="../../../assets/images/blockchain.png" alt="">
+                    <p>{{item.name}}</p>
+                </button>
+            </div>        
+    </div>  
+    </div>
+  
+      <div class="modal fade my-modal" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+        <div class="modal-dialog my-modal-dialog" role="document">
+          <div class="modal-content my-modal-content">
+            <div class="modal-header my-modal-header" style="border:none;">
+              <h5 class="modal-title my-modal-title" id="exampleModalLabel">{{job.name}}</h5>
+              <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+              </button>
+            </div>
+            <div class="modal-body my-modal-body">
+                <div *ngFor="let item of job.classify">
+                    <h6>{{item.title}}</h6>
+                    <ul>
+                        <li *ngFor="let item2 of item.list">
+                            {{item2}}
+                        </li>
+                    </ul>
+                </div>
+            </div>
+          </div>
+        </div>
+      </div>
+</div> 
+
+<div class="e-mail">
+    <span class="e-mail-title">
+      {{email}}
+    </span>
+</div> 

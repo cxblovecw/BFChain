@@ -1,0 +1,392 @@
+{
+  "job":{
+    "name":"区块链开发工程师",
+    "classify":[
+      {"title":"岗位职责","list":[
+        "1、负责区块链底层中功能模块的研发；",
+        "2、负责参与交易平台功能模块的研发；",
+        "3、基于Node.js的应用研发工作；",
+        "4、进行相关产品的前端技术文档编写，方案设计。"
+      ]},
+      {"初级工程师":"初级工程师","list":[
+        "1、具备JavaScript、Java、C#基础知识并能用其解决基本问题；",
+        "2、了解如何使用基础数据库（MySQL、SQL Server）；",
+        "3、了解常见的数据结构和算法；",
+        "4、熟悉Git代码版本控制工具。"
+      ]},
+      {"title":"中级工程师","list":[
+        "1、了解系统开发生命周期SDLC，如敏捷开发Agile；",
+        "2、掌握TFS工具；",
+        "3、有基本的Node.js或JavaScript知识；",
+        "4、了解数据库基本运作原理，有使用知名数据库的经验；",
+        "5、能使用其他语言解决特定问题。"
+      ]},
+      {"title":"高级工程师","list":[
+        "1、了解多种编程语言：JavaScript/TypeScript、C#、Golang、C++；",
+        "2、可以在Nodejs、.Net Core/.Net Framework、Native上编写代码；",
+        "3、理解区块链的概念：钱包、智能合约、加密、分布式应用程序（DAPP）、挖矿等；",
+        "4、可以在多种操作系统上工作并适应，包括Windows、Linux、Mac OS；",
+        "5、能使用一般的SQL（MySQL、MSSQL）和NoSQL（MongoDB、DynamoDB、AWS）数据库。"
+      ]}
+    ]
+  },
+  "img_list":[
+    "../../../assets/images/TEDx.jpg",
+    "../../../assets/images/environment1.png",
+    "../../../assets/images/environment2.png",
+    "../../../assets/images/environment3.png",
+    "../../../assets/images/environment4.png",
+    "../../../assets/images/environment5.png",
+    "../../../assets/images/environment6.png",
+    "../../../assets/images/environment1.png",
+    "../../../assets/images/honour1.png",
+    "../../../assets/images/honour2.png",
+    "../../../assets/images/honour3.png"
+  ],
+  "chinese":{
+    "welcome":"期待您的加入！",
+    "email":"HR邮箱：HR@bagen.one",
+    "join_us":"加入我们的团队",
+    "job_list":[
+    {
+      "name":"区块链开发工程师",
+      "src":"../../../assets/images/blockchain.png",
+      "classify":[
+        {"title":"岗位职责","list":[
+          "1、负责区块链底层中功能模块的研发；",
+          "2、负责参与交易平台功能模块的研发；",
+          "3、基于Node.js的应用研发工作；",
+          "4、进行相关产品的前端技术文档编写，方案设计。"
+        ]},
+        {"title":"初级工程师","list":[
+          "1、具备JavaScript、Java、C#基础知识并能用其解决基本问题；",
+          "2、了解如何使用基础数据库（MySQL、SQL Server）；",
+          "3、了解常见的数据结构和算法；",
+          "4、熟悉Git代码版本控制工具。"
+        ]},
+        {"title":"中级工程师","list":[
+          "1、了解系统开发生命周期SDLC，如敏捷开发Agile；",
+          "2、掌握TFS工具；",
+          "3、有基本的Node.js或JavaScript知识；",
+          "4、了解数据库基本运作原理，有使用知名数据库的经验；",
+          "5、能使用其他语言解决特定问题。"
+        ]},
+        {"title":"高级工程师","list":[
+          "1、了解多种编程语言：JavaScript/TypeScript、C#、Golang、C++；",
+          "2、可以在Nodejs、.Net Core/.Net Framework、Native上编写代码；",
+          "3、理解区块链的概念：钱包、智能合约、加密、分布式应用程序（DAPP）、挖矿等；",
+          "4、可以在多种操作系统上工作并适应，包括Windows、Linux、Mac OS；",
+          "5、能使用一般的SQL（MySQL、MSSQL）和NoSQL（MongoDB、DynamoDB、AWS）数据库。"
+        ]}
+      ]
+    },
+    {
+      "name":"全栈工程师",
+      "src":"../../../assets/images/blockchain.png",
+      "classify":[
+        {"title":"岗位职责","list":[
+          "1、编写Node.js前置机服务器，通过与后端服务进行数据整合与安全校验提供用户所需的数据；",
+          "2、编写Node.js的Websocket长连接处理。即使用户行为管理和通知；",
+          "3、编写Node.js独立的服务器。"
+        ]},
+        {"title":"任职要求","list":[
+          "1、对区块链技术有兴趣的优先；希望你是一位热衷于你的专业技术的工科男；希望你是一位对自己有所要求的积极小伙伴；",
+          "2、精通Node.js；",
+          "3、使用过一种Node.js服务框架,例如Pomelo等；",
+          "4、精通HTTP、TCP、Websocket协议，有相关开发经验；",
+          "5、熟悉MySQL、SQL Server、Redis数据库，以及一种NoSQL数据库；",
+          "6、熟悉Java开发者优先；",
+          "7、有团队意识和责任心，善于沟通；",
+          "8、前后端均出色开发工程师优先。"
+        ]}
+      ]
+    },
+    {
+      "name":"JS后端开发工程师",
+      "src":"../../../assets/images/blockchain.png",
+      "classify":[
+        {"title":"岗位职责","list":[
+          "1、编写Node.js独立的微服务；",
+          "2、精通Node.js",
+          "3、使用过一种Node.js服务框架；",
+          "4、熟悉MySQL、SQL Server、Redis数据库，以及一种NoSQL数据库。"
+        ]},
+        {"title":"Node.js初级开发工程师","list":[
+          "1、具备JavaScript、Java、C#基础知识并能用其解决基本问题；",
+          "2、掌握基本数据库（MySQL、SQL Server）的使用；",
+          "3、了解常见的数据结构和算法；",
+          "4、熟悉Git代码版本控制工具。"
+        ]},
+        {"title":"Node.js中级开发工程师","list":[
+          "1、了解系统开发生命周期SDLC，如敏捷开发Agile；",
+          "2、掌握TFS工具；",
+          "3、有基本的Node.js或JavaScript知识；",
+          "4、了解数据库基本运作原理，有使用知名数据库的经验；",
+          "5、能使用其他语言解决特定问题。"
+        ]},
+        {"title":"Node.js高级开发工程师","list":[
+          "1、精通Node.js或JavaScript；",
+          "2、能使用其他语言解决高级问题；",
+          "3、深入了解数据库，如MySQL、SQL Server、Mongodb、Oracle等。"
+        ]}
+      ]
+    },
+    {
+      "name":"JS前端开发工程师",
+      "src":"../../../assets/images/blockchain.png",
+      "classify":[
+        {"title":"岗位职责","list":[
+          "1、使用Angular实现界面效果；",
+          "2、可参与使用JS实现部分后端逻辑；",
+          "3、掌握Bootstrap、jQuery、AngularJS等其中一种框架；",
+          "4、掌握JavaScript、Ajax、HTML5、CSS等基础网页制作开发技术，能开发PC端、移动端网页，并能解决好各种浏览器兼容。"
+        ]},
+        {"title":"初级工程师","list":[
+          "1、能够编写从后端到界面API的代码；",
+          "2、了解HTML5 CSS3的基本知识以及AngularJS模版。"
+        ]},
+        {"title":"中级工程师","list":[
+          "1、为CI创建配置、构建和测试脚本；",
+          "2、确保移动端和PC端高性能运作；",
+          "3、协调与平面设计、HTML编程员之间的工作；",
+          "4、了解Bower、gulp、Grunt等工具。"
+        ]},
+        {"title":"高级工程师","list":[
+          "1、与外部web服务进行沟通，具有专业、准确的沟通技巧；",
+          "2、创建独立、可重用且可测试的模块和组件；",
+          "3、确保App逻辑和文件系统有一个清晰依赖链；",
+          "4、能够为单页应用（SPA）提供SEO解决方案；",
+          "5、全面了解系统中使用的平台、数据库、API、缓存层、代理和其他web服务职责；",
+          "6、编写非阻塞代码，并在需要时采用多线程等高级技术。"
+        ]}
+      ]
+    },
+    {
+      "name":"运维工程师",
+      "src":"../../../assets/images/blockchain.png",
+      "classify":[
+        {"title":"岗位职责","list":[
+          "1、负责公司IT环境安全规划和设计；",
+          "2、负责公司产品平台运维制度、规范、方案的设计和落实；",
+          "3、对网络节点及软硬件平台及系统进行日常监控及维护，根据故障级别的不同，网络及系统监控和预警，操作系统及应用服务器调优；",
+          "4、数据备份、数据监控、编写数据分析报告等；",
+          "5、负责公司开发项目系统搭建、优化，问题处理，协同工作；",
+          "6、全面负责公司运维项目的系统升级、扩容需求与资源落实，配合开发需求，测试、调整运维平台，保障服务7*24稳定运行；",
+          "7、熟悉AWS、阿里云、google云的部署，调试，优化；",
+          "8、熟悉VMware虚拟化技术，有VCP更好；",
+          "9、熟悉AD、Exchange、Lync，能对现有的AD、Exchange、Lyne进行规划，配置和问题解决。"
+        ]},
+        {"title":"任职要求","list":[
+          "1、本科计算机相关专业毕业，熟悉各种主流操作系统，至少会使用1种服务器脚本语言，比如：Shell、Perl、Python等，有系统运维或实施类项目经验优先；",
+          "2、熟悉常用应用服务，如：Tomcat、Apache、Ngnix、Redis、Kafka等安装调试及调优等，熟悉应用服务的负载均衡和高可用；",
+          "3、熟悉防火墙、路由器、交换机的运行机制,了解TCP/IP协议、熟悉路由、交换的基本原理；熟练配置防火墙，路由器和交换机；",
+          "4、深刻理解MySQL、Mongodb，熟练部署Mongodb集群，MySQL主从同步，读写分离，主主同步，并对SQL执行状态，主从同步状态监控，报警；",
+          "5、熟悉使用Cacti、Nagios、Zibble等监控工具完成网站7*24小时监控报警；",
+          "6、有良好的预防和解决网络攻击、设备损坏等，对各种网络攻击有有效的应对办法，有应急响应事情的处理经验；大型网站（金融类）运维经验者或金融应用或云平台从业经验者优先；",
+          "7、熟悉Windows平台，能对Windows平台AD、Exchange、Lynce进行规划，配置和问题解决；",
+          "8、熟悉云计算和虚拟化技术，能熟练配置AWS云，Google云，阿里云和VMware桌面云以及相应的问题处理。"
+        ]},
+        {"title":"初级工程师","list":[
+          "任职要求满足3项。"
+        ]},
+        {"title":"中级工程师","list":[
+          "任职要求满足5项。"
+        ]},
+        {"title":"高级工程师","list":[
+          "任职要求全部满足。"
+        ]}
+      ]
+    }
+  ],
+  "phone_introduction":[
+    {
+      "title":"环境优美",
+      "detail":"市中心全视野湖景，5A写字楼办公环境。交通便利不堵车，午睡躺平劳逸结合。员工专属健身器械，全能多方位按摩椅。全自动洗衣烘干机，360°按摩淋浴系统。",
+      "src":"../../../assets/images/environment.gif"
+    },
+    {
+      "title":"行业影响",
+      "detail":"BFChain所在实验室于2017年推出世界上第一款支持移动终端的公有链产品IFMChain。该项目曾在2017中国区块链技术应用峰会(BTAS2017)、2018区块链技术与创新高峰论坛、2018全球区块链技术及应用峰会(GBTS)、2018区块链世界论坛(BlockChain World Forum)等等多个区块链行业平台被授予多项荣誉与肯定。",
+      "src":"../../../assets/images/achievement.gif"
+    },
+    {
+      "title":"TEDX演讲",
+      "detail":"实验室创始人杨税令先生更于2018年11月受邀成为TEDx2018年度大会演讲人，演讲《移动区块链是通往信用时代的唯一途径》。",
+      "src":"../../../assets/images/TEDx.jpg"
+    }
+  ]
+  },
+  "english":{
+    "welcome":"welcome!",
+    "email":"HR's-mail：HR@bagen.one",
+    "join_us":"Join Our Team ",
+    "job_list":[
+      {
+        "name":"Blockchain Development Engineer",
+        "src":"../../../assets/images/blockchain.png",
+        "classify":[
+          {"title":"Job Responsibilities","list":[
+            "1.Responsible for the development of functional modules in the bottom layer of the Blockchain;",
+            "2.Responsible for participating in the research and development of the function module of the trading platform;",
+            "3.Application research and development based on Node.js;",
+            "4.Carry out front-end technical documentation and project design of related products."
+          ]},
+          {"title":"Junior Engineer","list":[
+            "1.Basic knowledge of JavaScript, Java, C# and can use it to solve basic problems;",
+            "2.Know how to use the underlying database (MySQL, SQL Server);",
+            "3.Understand common data structures and algorithms;",
+            "4.Familiar with Git code version control tools."
+          ]},
+          {"title":"Intermediate Engineer","list":[
+            "1.Understand systems development lifecycle SDLC, such as Agile development;",
+            "2.Mastering the TFS tool;",
+            "3.Have basic knowledge of Node.js or JavaScript;",
+            "4.Know the basic operation principle of database, have experience of using famous database;",
+            "5.Ability to solve specific problems in other languages."
+          ]},
+          {"title":"Senior Engineer","list":[
+            "1.Understanding multiple programming languages: JavaScript/TypeScript, C#, Golang, C++;",
+            "2.Ability to write code on Nodejs, .Net Core/.Net Framework, Native;",
+            "3.Understand Blockchain\"s concepts: wallet, smart contracts, encryption, distributed applications (DAPP), mining;",
+            "4.Can work and adapt on a variety of operating systems, including Windows, Linux, and MacOS;",
+            "5.Can use general SQL(MySQL, MSSQL) and NoSQL(MongoDB, DynamoDB AWS) database."
+          ]}
+        ]
+      },
+      {
+        "name":"Full Stack Engineers",
+        "src":"../../../assets/images/blockchain.png",
+        "classify":[
+          {"title":"Job Responsibilities","list":[
+            "1.Write the Node.js front-end server to provide the data users need through data integration and security verification with the back-end service;",
+            "2.Write Node.js websocket long connection processing. Even user behavior management and notifications;",
+            "3.Write a Node.js standalone server."
+          ]},
+          {"title":"Job Requirements","list":[
+            "1.Interested Blockchain technology preferred;I hope you are a keen on your professional skills engineering male;I hope you are an active partner who has requirements for yourself;",
+            "2.Proficient in Node.js;",
+            "3.Used a Node.js service framework such as Pomelo;",
+            "4.Proficient in HTTP, TCP, Websocket protocol, relevant development experience;",
+            "5.Familiar with MySQL, SQL Server, Redis database, and a NoSQL database;",
+            "6.Familiar with Java developer preferred;",
+            "7.Have team awareness and responsibility, be good at communication;",
+            "8.Excellent front and back end development engineers are preferred."
+          ]}
+        ]
+      },
+      {
+        "name":"JS Backend Development Engineer",
+        "src":"../../../assets/images/blockchain.png",
+        "classify":[
+          {"title":"Job Responsibilities","list":[
+            "1.Write Node.js independent microservices;",
+            "2.Proficient in Node.js;",
+            "3.Used a Node.js service framework;",
+            "4.Familiar with MySQL, SQL Server, Redis database, and a NoSQL database."
+          ]},
+          {"title":"Node.js Junior Development Engineer","list":[
+            "1.Can basically master and use JavaScript, Java, C#, etc. to solve some basic problems;",
+            "2.Master the use of basic databases (MySQL, SQL Server);",
+            "3.Understand common data structures and algorithms;",
+            "4.Familiar with Git code version control tools."
+          ]},
+          {"title":"Node.js Intermediate Development Engineer","list":[
+            "1.Understand the system development life cycle SDLC, such as agile development Agile;",
+            "2.Master the TFS tool;",
+            "3.Basic understanding of Node.js or javaScript;",
+            "4.Knowledge of database working principles, or experience with well-known databases;",
+            "5.Ability to solve specific problems in other languages."
+          ]},
+          {"title":"Node.js Senior Development Engineer","list":[
+            "1.Proficient in Node.js or javaScript;",
+            "2.Ability to solve senior problems in other languages;",
+            "3.Delve into databases such as MySQL, SQL Server, Mongodb, Oracle, etc。"
+          ]}
+        ]
+      },
+      {
+        "name":"JS Front-end Development Engineer",
+        "src":"../../../assets/images/blockchain.png",
+        "classify":[
+          {"title":"Job Responsibilities","list":[
+            "1.Use Angular to achieve interface effects;",
+            "2.Can participate in the implementation of partial back-end logic using JS;",
+            "3.Master one of the frameworks such as Bootstrap, jQuery, and AngularJS;",
+            "4.Master JavaScript, Ajax, HTML5, CSS and other basic web page production and development technologies, can develop PC-side, mobile-side web pages, and can solve various browser compatibility."
+          ]},
+          {"title":"Junior Engineer","list":[
+            "1.Ability to write code from the backend to the interface API;",
+            "2.Basic knowledge of HTML5, CSS3, and AngularJs templates."
+          ]},
+          {"title":"Intermediate Engineer","list":[
+            "1.Create configuration, build, and test scripts for CI;",
+            "2.Ensure high performance operation on mobile and PC;",
+            "3.Coordination and work between graphic design and HTML programmers;",
+            "4.Understand tools such as Bower, gulp, and Grun."
+          ]},
+          {"title":"Senior Engineer","list":[
+            "1.Communicate with external web services with professional and accurate communication skills;",
+            "2.Create independent, reusable, and testable modules and components;",
+            "3.Ensure that the App logic and file system have a clear link;",
+            "4.Ability to provide SEO solutions for single page applications (SPA);",
+            "5.A comprehensive understanding of the platforms, databases, API, caching layers, proxies, and other web service responsibilities used in the system;",
+            "6.Write non-blocking code and use advanced techniques such as multithreading when needed."
+          ]}
+        ]
+      },
+      {
+        "name":"Operation and Maintenance Engineer",
+        "src":"../../../assets/images/blockchain.png",
+        "classify":[
+          {"title":"Job Responsibilities","list":[
+            "1.Responsible for corporate IT environmental safety planning and design;",
+            "2.Responsible for the design and implementation of the company\"s product platform operation and maintenance system, specifications, and programs;",
+            "3.Daily monitoring and maintenance of network nodes and hardware and software platforms and systems, based on different fault levels, network and system monitoring and early warning, operating system and application server tuning;",
+            "4.Data backup, data monitoring, writing data analysis reports, etc.;",
+            "5.Responsible for company development project system construction, optimization, problem handling, collaborative work;",
+            "6.To be fully responsible for the system upgrade, capacity expansion and resource implementation of the company\"s operation and maintenance projects, to test and adjust the operation and maintenance platform to meet the needs of development, and to ensure the stable operation of the service 7*24;",
+            "7.Familiar with the deployment, debugging, optimization of AWS Alibaba Cloud;",
+            "8.Familiar with VMware virtualization technology, VCP is better;",
+            "9.Familiar with AD, Exchange, Lync, can plan, configure and solve existing AD, Exchange, Lyne."
+          ]},
+          {"title":"Job Requirements","list":[
+            "1.Bachelor degree in computer related major, familiar with all kinds of mainstream operating systems, at least one server scripting language, such as: Shell, Perl, Python, etc., experience in system operation and maintenance or implementation projects is preferred;",
+            "2.Familiar with common application services, such as: Tomcat, Apache, Ngnix, Redis, Kafka, etc. Installation, debugging and tuning, familiar with load balancing and high availability of application services;",
+            "3.Familiar with the operating mechanism of firewalls, routers, and switches, understand the basic principles of TCP/IP protocol, familiar with routing, and switching; be proficient in configuring firewalls, routers, and switches;",
+            "4.Deep understanding of MySQL, Mongodb, skilled deployment of Mongodb cluster, MySQL master-slave synchronization, read-write separation, master-synchronization, and sql execution status, master-slave synchronization status monitoring, alarm;",
+            "5.Skilled in using Cacti, Nagios, Zibble and other monitoring tools to complete the website 7*24 hours monitoring alarm;",
+            "6.Have good prevention and resolution of network attacks, equipment damage, etc., effective response to various network attacks, emergency response processing experience, large-scale website (financial) operation and maintenance experience or financial application or cloud platform experience priority;",
+            "7.Familiar with Windows platform, can plan, configure and solve problems on windows platform AD, Exchange, Lynce;",
+            "8.Familiar with cloud computing and virtualization technologies, skilled in configuring AWS Cloud, Google Cloud, Alibaba Cloud and VMware Desktop Cloud and corresponding problem handling."
+          ]},
+          {"title":"Junior Engineer","list":[
+            "At least three requirements of above shall be met."
+          ]},
+          {"title":"Intermediate Engineer","list":[
+            "At least five requirements of above shall be met."
+          ]},
+          {"title":"Senior Engineer","list":[
+            "All requirements of above shall be met."
+          ]}
+        ]
+      }
+    ],
+    "phone_introduction":[
+      {
+        "title":"Beautiful environment ",
+        "detail":"City center full view lake view ,5 a office space. Convenient transportation without traffic jam, nap lie flat work and rest combined. Staff exclusive fitness equipment, all-around multi-directional massage chair. Automatic laundry dryer ,360° massage shower system. ",
+        "src":"../../../assets/images/environment.gif"
+      },
+      {
+        "title":"Industry impact ",
+        "detail":"BFChain lab launched the world's first publicly owned ifmchain. to support mobile terminals in 2017 The project has been awarded many honors and affirmation in several blockchain industry platforms such as China Blockchain Technology Application Summit (btas2017),2018 Blockchain Technology and Innovation Summit Forum ,2018 Global Blockchain Technology and Application Summit (gbts),2018 Blockchain World Forum (blockchain world forum) and so on. ",
+        "src":"../../../assets/images/achievement.gif"
+      },
+      {
+        "title":"TEDX Speech",
+        "detail":"Also in November 2018, the founder of the laboratory, Mr. Yang ShuiLing, was invited to become the speaker of the TEDx2018 annual conference, speaking on \"Mobile Block chain is the only way to the credit age \". ",
+        "src":"../../../assets/images/TEDx.jpg"
+      }
+    ]
+  }
+}

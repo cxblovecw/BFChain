@@ -1,0 +1,38 @@
+.item{
+    margin-top: 20px;
+    text-align: center;
+    transition: all 0.5s linear;
+    padding-bottom: 20px;
+    .image{
+        width: 100%;
+        height: 130px;
+        line-height: 130px;
+        text-align: center;
+
+    }
+    .title{
+        font-size: 22px;
+        padding-bottom: 10px;
+        border-bottom: 1.5px solid #ddd;
+        font-weight: bold;
+        transition: all 0.2s linear;
+    }
+    img{
+        width: 120px;
+    }
+    p{
+        text-align: left;
+    }
+    .content{
+        color:rgb(67, 80, 114);
+    }
+}
+.item:hover{
+    transform: scale(1.05);
+    box-shadow:#666 0px 0px 50px -5px;
+
+    .title{
+        color:#007bff;
+        transition: all 0.3s linear;
+    }
+}

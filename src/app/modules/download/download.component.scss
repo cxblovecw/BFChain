@@ -1,0 +1,78 @@
+.download-header{
+    font-family:Arial,Helvetica,sans-serif;
+    text-shadow: 0.5px 0.5px #ccc;
+    .title{
+       line-height: 15vh;
+       font-size: 5vh;
+    }
+    p{
+        text-align: center;
+        font-size: 2.5vh;
+    }
+    height: 100vh;
+    color: #fff;
+    text-align: center;
+    overflow: hidden;
+    background-image: url('../../../assets/images/dl_bg.jpg');
+    background-position: 50% 50%;
+    background-size:cover;
+    background-repeat: no-repeat;
+}
+.download-content{
+    background: #f5f6fa;
+    overflow: hidden;
+    .content-title{
+        line-height: 20vh;
+        text-align: center;
+        font-size: 5vh;
+    }
+    .bfchain-img{
+        text-align: center;
+       img{
+         height: 75vh;
+       }
+    }
+   .bfchain-introduction{
+       li{
+           font-size: 2.3vh;
+           line-height: 5vh;
+           color: #435072;
+       }
+   }
+    .content-body{
+        border-radius: 4vh;
+        box-sizing: border-box;
+        padding: 5vh;
+        background: #eee;
+        .content-body-title{
+            font-size: 4vh;
+            height: 130px;
+            text-align: center;
+            margin-bottom: 5vh;
+        }
+        .code_part{
+            display: flex;
+            justify-content: space-around;
+            text-align: center;
+            font-weight: bold;
+            .download-btn{
+                text-decoration: none;
+                display: inline-block;
+                width: 130px;
+                height: 35px;
+                line-height: 35px;
+                color: #fff;
+                background: #000;
+                font-size: 12px;
+                img{
+                    width: 20px;
+                    margin: 0 5px 3px 0;
+                    height: 20px;
+                }
+            }
+            .download-btn:hover{
+                background: #428bca;
+            }
+        }
+    }
+}

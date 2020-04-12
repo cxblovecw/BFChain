@@ -1,4 +1,5 @@
 import { Component } from '@angular/core';
+import {TopBarComponent} from './components/top-bar/top-bar.component'
 
 @Component({
   selector: 'app-root',
@@ -6,5 +7,5 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent {
-  title = 'BFChain';
+
 }

@@ -1,0 +1,34 @@
+<div class="download-header">
+    <div class="title">{{head_title[0]}}</div>
+    <p>{{head_title[1]}}</p>
+    <p>{{head_title[2]}}</p>
+</div>
+<div class="download-content">
+  <p class="content-title">{{content_title[0].title1}}</p>
+  <div class="container content-body">
+    <div class="content-body-title">
+      <p><img src="../../../assets/images/phone.png"></p>
+      <p> {{content_title[0].title2}}</p>
+    </div>
+    <div class="row">
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 bfchain-img">
+        <img src="../../../assets/images/bfchain.png" alt="">
+      </div>
+      <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12 bfchain-introduction">
+        <ul>
+          <li *ngFor="let item of introduction">
+            {{item}}
+          </li>
+        </ul>
+        <div class="code_part">
+            <div *ngFor="let item of code_list;let index=index;">
+            <p>{{ btn[index].head }}</p>
+            <p><img [src]="item.src"></p>
+            <p><a href="#" class="download-btn"><img [src]="item.image" alt="">{{btn[index].btn}}</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    
+  </div>  
+</div>

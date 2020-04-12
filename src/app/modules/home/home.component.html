@@ -1,0 +1,65 @@
+<!-- 主页头部背景开始 -->
+<div #bg class="index-bg">
+    <div class="font">
+        <p>BFChain-生物链林</p>
+        <p>{{slogen}}</p>
+    </div>
+    <span></span>
+    <img src="../assets/images/bg.png" alt="">
+</div>
+
+<!--  -->
+<div class="down-box">
+    <div class="container">
+        <div class="row">
+            <div class="col-lg-6 down-item" *ngFor="let item of btn">
+                <a [href]="item.src">{{item.text}}</a>
+            </div>
+        </div>
+    </div>
+</div>
+<div class="introduction container">
+    <h3 class="title">{{introduction_list.head}}</h3>
+    <div class="row content">
+        <div class="col-lg-4 col-md-6 col-sm-12 col-xs-12" *ngFor="let item of introduction_list.body">
+            <app-introduction-item [title]='item.title' [src]='item.src' [content]='item.content'>
+            </app-introduction-item>
+        </div>
+
+    </div>
+</div>
+<div class="video-part container">
+    <h3>{{video_title}}</h3>
+    <video src="../../../assets/video/blockchain.mp4" controls></video>
+</div>
+
+<div class="advantage container">
+    <h3 class="advantage-title">{{advantage_list.head}}</h3>
+    <div class="row">
+        <div class="col-lg-3 col-md-4 col-sm-6 col-xs-12" *ngFor="let item of advantage_list.body">
+            <app-advantage-item [src]="item.src" [title]="item.title" [content]="item.content"></app-advantage-item>
+        </div>
+    </div>
+</div>
+
+
+<div class="contact">
+    <div class="container">
+        <h2 class="contact-title">{{contact_list.head}}</h2>
+        <div class="row contact-content">
+            <div class="col-lg-3 col-md-3 col-sm-6 col-xs-12 contact-item"
+                *ngFor="let item of contact_list.body;let key=index;">
+                <span class="gzh" (mouseenter)="showImg(key)" (mouseleave)=hideImg(key)>
+                    <img class="gzh-img" [src]='item.src'>
+                    <img class="gzh-img2" [src]="item.src2">
+                    <p class="gzh-title">{{item.title}}</p>
+                </span>
+                <img class="code-img" [src]='item.code' alt="">
+            </div>
+        </div>
+    </div>
+</div>
+
+<div class="go-top">
+    <a class="go-top-button" href="javascript;">{{gotop}}</a>
+</div>

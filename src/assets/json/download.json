@@ -1,0 +1,54 @@
+{
+  "android":{
+    "type":"安卓",
+    "src":"../../../assets/images/andriod_down.png",
+    "btn":"下载安卓版本",
+    "file":"",
+    "image":"../../../assets/images/android.png"
+  },
+  "ios":{
+    "type":"IOS",
+    "src":"../../../assets/images/ios_down.png",
+    "btn":"下载IOS版本",
+    "file":"",
+    "image":"../../../assets/images/ios.png"
+  },
+  "english":{
+    "head_title":[
+      "BFChain",
+      "The world's first mobile public block chain.",
+      "BFChain3.5 is about to be released, please look forward to it."
+    ],
+    "content_title":[
+      {"title1":"Mobile Client","title2":"Phone"}
+    ],
+    "introduction":[
+      "Bfchain is the world\"s first mobile public chain.",
+      "Bfchain uses a consensus mechanism based on participation.",
+      "Support offline transactions."
+    ],
+    "btn":[
+      {"head":"IOS","btn":"IOS Download"},
+      {"head":"Android","btn":"Android Download"}
+    ]
+  },
+  "chinese":{
+    "head_title":[
+      "BFChain",
+      "全球首款移动端公有链",
+      "BFChain3.5即将发布，敬请期待。"
+    ],
+    "content_title":[
+      {"title1":"移动客户端","title2":"手机"}
+    ],
+    "introduction":[
+      "Bfchain是全球首款移动公有链",
+      "Bfchain采用基于参与度的共识机制",
+      "支持离线交易"
+    ],
+    "btn":[
+      {"head":"IOS","btn":"下载IOS版本"},
+      {"head":"安卓","btn":"下载安卓版本"}
+    ]
+  }
+}
