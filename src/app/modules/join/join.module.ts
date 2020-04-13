@@ -1,15 +1,14 @@
-import { NgModule } from '@angular/core';
-import { CommonModule } from '@angular/common';
+import { CommonModule } from "@angular/common";
+import { NgModule } from "@angular/core";
 
-import { JoinRoutingModule } from './join-routing.module';
-import { JoinComponent } from './join.component';
-
+import { JoinRoutingModule } from "./join-routing.module";
+import { JoinComponent } from "./join.component";
 
 @NgModule({
   declarations: [JoinComponent],
   imports: [
     CommonModule,
-    JoinRoutingModule
-  ]
+    JoinRoutingModule,
+  ],
 })
 export class JoinModule { }
