@@ -13,13 +13,7 @@
                 "ignore-pattern": "^_"
             }
         ],
-        "ordered-imports": [
-            true,
-            {
-                "import-sources-order": "lowercase-last",
-                "named-imports-order": "lowercase-first"
-            }
-        ],
+        "ordered-imports": false,
         "trailing-comma": [
             true,
             {
@@ -38,17 +32,14 @@
         ],
         "no-eval": true,
         "no-internal-module": true,
-        "no-trailing-whitespace": true,
+        "no-trailing-whitespace": false,
         "no-unsafe-finally": true,
         "one-line": [
             true,
             "check-open-brace",
             "check-whitespace"
         ],
-        "quotemark": [
-            true,
-            "double"
-        ],
+        "quotemark": false,
         "semicolon": [
             true,
             "always"
@@ -71,14 +62,7 @@
             true,
             "ban-keywords"
         ],
-        "whitespace": [
-            true,
-            "check-branch",
-            "check-decl",
-            "check-operator",
-            "check-separator",
-            "check-type"
-        ]
+        "whitespace": false
     },
     "jsRules": {
         "triple-equals": [

@@ -49,7 +49,7 @@ export class JoinComponent implements OnInit {
             welcome.style.display = "block";
             welcome.style.opacity = 0.6;
           }
-        } else if (move_distance <= -25 
+        } else if (move_distance <= -25
           || (Math.abs(move_distance) < 25 && event.clientX <= document.body.clientWidth / 2)) {
           if ($this.distance !== 0) {
             $this.distance -= 50;
@@ -89,7 +89,7 @@ export class JoinComponent implements OnInit {
       this.welcome = data.english.welcome;
       this.phone_introduction = data.english.phone_introduction;
     } else {
-      this.welcome = data.chinese.welcome
+      this.welcome = data.chinese.welcome;
       this.email = data.chinese.email;
       this.join_us = data.chinese.join_us;
       this.job_list = data.chinese.job_list;
